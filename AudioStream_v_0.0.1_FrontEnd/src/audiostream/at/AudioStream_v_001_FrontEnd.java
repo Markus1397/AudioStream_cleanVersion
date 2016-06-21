@@ -165,7 +165,7 @@ public class AudioStream_v_001_FrontEnd extends Application {
                         System.out.println(path);
                         String ip = "192.168.2.1";
                         int port = 42050;
-                        RTPServer.main();
+                        RTPServer.main(ip, path, port);
                         bottom.getPlay().setGraphic(new ImageView(bottom.getPauseImage()));
                         playCheck = true;
                     }
