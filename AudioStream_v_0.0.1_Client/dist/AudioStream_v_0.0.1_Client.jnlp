@@ -8,11 +8,16 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="AudioStream_v_0.0.1_Client.jar" size="24486" download="eager" />
+    <jar href="AudioStream_v_0.0.1_Client.jar" size="28554" download="eager" />
+    <jar href="lib/jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="lib/jna-platform-4.1.0.jar" size="1464423" download="eager" />
+    <jar href="lib/slf4j-api-1.7.10.jar" size="32119" download="eager" />
+    <jar href="lib/vlcj-3.10.1-tests.jar" size="402818" download="eager" />
+    <jar href="lib/vlcj-3.10.1.jar" size="404748" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AudioStream_v_0.0.1_Client" >
     <param name="requiredFXVersion" value="8.0+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="audiostream_v_0.pkg0.pkg1_client.AudioStream_v_001_Client"  name="AudioStream_v_0.0.1_Client" />
+  <jfx:javafx-desc  width="800" height="600" main-class="at.audiostream.client.gui.AudioStream_v_001_Client"  name="AudioStream_v_0.0.1_Client" />
   <update check="always"/>
 </jnlp>
