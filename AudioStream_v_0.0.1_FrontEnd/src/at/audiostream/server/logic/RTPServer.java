@@ -1,4 +1,4 @@
-package audiostream.at;
+package at.audiostream.server.logic;
 
 import java.io.File;
 import java.net.InetAddress;

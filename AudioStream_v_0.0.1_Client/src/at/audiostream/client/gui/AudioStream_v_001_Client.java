@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package audiostream_v_0.pkg0.pkg1_client;
+package at.audiostream.client.gui;
 
 import javafx.application.Application;
 import javafx.application.Platform;
